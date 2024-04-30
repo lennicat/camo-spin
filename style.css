@@ -1,0 +1,20 @@
+::backdrop {
+    background-color: aliceblue;
+    opacity: 70;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.image-flex {
+    display: flex;
+}
+
+.mute-button {
+    align-self: flex-end;
+}
