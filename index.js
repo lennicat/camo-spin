@@ -4,16 +4,15 @@ const musicPlayer = document.getElementById('player');
 let isMuted;
 window.onload = dialog.showModal();
 
-closeButton.addEventListener("click", () => {
-    dialog.close();
-});
-
-document.addEventListener('click', musicPlay);
 function musicPlay() {
     musicPlayer.play();
     isMuted = 0;
-    document.removeEventListener('click', musicPlay);
 };
+
+closeButton.addEventListener("click", () => {
+    dialog.close();
+    musicPlay();
+});
 
 const muteButton = document.getElementById("mute_audio");
 const icon = document.getElementById("mute_icon");
