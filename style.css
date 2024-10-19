@@ -18,3 +18,10 @@ body {
 .mute-button {
     align-self: flex-end;
 }
+
+.footer { 
+    position: fixed;     
+    text-align: center;    
+    bottom: 0px; 
+    width: 100%;
+}
