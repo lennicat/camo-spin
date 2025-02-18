@@ -25,8 +25,8 @@ body {
 }
 
 .footer { 
-    position: fixed;     
-    text-align: center;    
+    position: fixed;
+    text-align: right;    
     bottom: 0px; 
     width: 100%;
 }
