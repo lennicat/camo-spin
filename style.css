@@ -11,6 +11,11 @@ body {
     margin: 0;
 }
 
+.camo {
+    width: 30vw;
+    height: auto;
+}
+
 .image-flex {
     display: flex;
 }
@@ -26,4 +31,37 @@ body {
     width: 100%;
 }
 
-/*
+/* for cell phones and stuff */
+@media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+
+    .camo {
+        width: 70vw;
+        height: auto;
+    }
+}
+
+/* a hacky way of displaying only certain things based on screen size*/
+@media all and (max-width: 959px) {
+    .desktop {
+      display: block;
+    }
+    .mobile {
+      display: none;
+    }
+}
+  
+  @media all and (max-width: 479px) {
+    .desktop {
+      display: none;
+    }
+    .mobile {
+      display: block;
+    }
+}
