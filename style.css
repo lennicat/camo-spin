@@ -30,7 +30,6 @@ body {
     bottom: 0px; 
     width: 100%;
 }
-
 /* for cell phones and stuff */
 @media screen and (max-width: 600px) {
     body {
