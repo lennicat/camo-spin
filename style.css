@@ -11,6 +11,18 @@ body {
     margin: 0;
 }
 
+.welcome-header {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+.modal-bar {
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient colors */
+    margin: 10px 0;
+}
+
 .camo {
     width: 30vw;
     height: auto;
